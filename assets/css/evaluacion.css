@@ -1,0 +1,14 @@
+.palomita{
+  width: 300px;
+    background-color:aquamarine;
+    color:black;
+    animation: box;
+    animation-duration: 15s;
+    position: relative;
+    animation-iteration-count: infinite;  
+}
+@Keyframes palomita { 
+    0% {background-color:aquamarine ; left: 0px; top: 0px;}
+    25%{background-color: blue; left: 150px; top: 0px;}
+    50%{background-color:bisque;}
+}
