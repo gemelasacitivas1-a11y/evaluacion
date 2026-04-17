@@ -1,0 +1,17 @@
+.box{
+    width: 300px;
+    background-color:white;
+    color:black;
+    animation: box;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    border: 2px;
+}
+@Keyframes box { 
+    0% { left: 0px; top: 0px;}
+    25%{ left:  300px; top: 0px;}
+}
+.palomita{
+    width: 200px;
+}
